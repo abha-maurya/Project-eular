@@ -23,9 +23,9 @@ for i in range(1, 308_001,2):
 
 #optimised solution by ai
     
-# total = 0
+total = 0
 
-# for i in range(1, 308_001, 2):
-#     total += i * i
+for i in range(1, 308_001, 2):
+    total += i * i
 
-# print(total)
+print(total)
